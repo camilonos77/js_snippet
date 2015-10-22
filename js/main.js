@@ -4,6 +4,7 @@ function validarNumero(){
     }
 
 
+// validate key description
 function validarDescripcionTexto(){
     var texto = $(this).val();
     $(this).val(texto.replace(/[$:@^~\<\>`_\Ã¢â€šÂ¬\(\Ã‚Âª\)\=\Ã¢Ë†Å¾\-\Ã‚Â·\%\&\_\?\Ã‚Â¿\Ã‚Â¨\[\]\+\*\}\{\Ã‚Â´\#\"\?\Ã‚Â¡\!\\\/\Ã‚Â°\Ã‚Â¬\|]/g,""));
